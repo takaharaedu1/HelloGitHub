@@ -59,7 +59,7 @@ public class EntryPoint extends JFrame {
 		contentPane.add(textField, BorderLayout.NORTH);
 		textField.setColumns(10);
 		
-		btnNewButton = new JButton("100");
+		btnNewButton = new JButton("2");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			}
