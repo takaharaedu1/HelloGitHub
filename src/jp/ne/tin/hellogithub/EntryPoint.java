@@ -58,7 +58,7 @@ public class EntryPoint extends JFrame {
 		contentPane.add(textField, BorderLayout.NORTH);
 		textField.setColumns(10);
 		
-		btnNewButton = new JButton("New button");
+		btnNewButton = new JButton("Button Center");
 		contentPane.add(btnNewButton, BorderLayout.CENTER);
 		
 		btnNewButton_1 = new JButton("New button");
