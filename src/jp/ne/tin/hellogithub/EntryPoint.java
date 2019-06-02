@@ -23,6 +23,7 @@ public class EntryPoint extends JFrame {
 	private JButton btnNewButton;
 	private JButton btnNewButton_1;
 	private JButton button;
+	private JButton button_1;
 
 	/**
 	 * Launch the application.
@@ -58,14 +59,21 @@ public class EntryPoint extends JFrame {
 		contentPane.add(textField, BorderLayout.NORTH);
 		textField.setColumns(10);
 		
-		btnNewButton = new JButton("Button Center");
+		btnNewButton = new JButton("2");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		contentPane.add(btnNewButton, BorderLayout.CENTER);
 		
-		btnNewButton_1 = new JButton("New button");
+		btnNewButton_1 = new JButton("+");
 		contentPane.add(btnNewButton_1, BorderLayout.SOUTH);
 		
 		button = new JButton("1");
 		contentPane.add(button, BorderLayout.WEST);
+		
+		button_1 = new JButton("=");
+		contentPane.add(button_1, BorderLayout.EAST);
 	}
 
 }
